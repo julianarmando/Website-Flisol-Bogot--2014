@@ -239,5 +239,18 @@ body{
     text-align:center;
     font-size: 400%;
     vertical-align:100px;
-    
+    padding-top: 80px;
+    color: #ffffff;
+    font-weight: bold;
 }
+
+.tituloflisol a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tituloflisol img {
+  height: 75px;
+}
+
+
