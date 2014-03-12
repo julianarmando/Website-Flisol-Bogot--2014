@@ -4,11 +4,21 @@ body{
     margin: 0px auto;
 }
 
+#container{
+  width: 960px;
+  margin: 0 auto;
+}
+
 .mapa{
     
     background: #fbfcfd;
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0px auto;
+}
+
+#menu-principal{
+  height: 117px;
+  background-color: #1e1c1f;
 }
 
 
