@@ -9,6 +9,10 @@ body{
   margin: 0 auto;
 }
 
+.clear {
+  clear: both;
+}
+
 .mapa{
     
     background: #fbfcfd;
@@ -80,6 +84,24 @@ body{
   height: 50px;
   overflow: hidden;
   line-height: 25px;
+}
+
+#patrocinio {
+  margin-top: 10px;
+}
+
+#patrocinio #apoya{
+  float: left;
+}
+
+#patrocinio #organiza{
+  float: right;
+}
+
+#patrocinio .bloque {
+  height: 300px;
+  width: 470;
+  background-color: #ffffff;
 }
 
 #que-es-flisol {
