@@ -44,6 +44,44 @@ body{
   color: #ffffff;
 }
 
+#noticias {
+  margin-top: 10px;
+}
+
+#noticias h3 {
+  font-size: 40pt;
+  font-weight: bold;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#noticias .noticia {
+  background-color: green;
+  margin: 0 2.5px;
+  width: 315px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#noticias .noticia img{
+  position: absolute;
+}
+
+#noticias .noticia span{
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  margin-top: 170px;
+  height: 50px;
+  overflow: hidden;
+  line-height: 25px;
+}
+
 #que-es-flisol {
   background-color: red;
   margin-top: 20px;
