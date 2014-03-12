@@ -115,13 +115,16 @@ body{
 
 #menu-principal img{
   float: left;
+  height: 88px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 
 #menu-principal ul{
   padding: 0;
   display: inline;
-  margin-top: 40px;
+  margin-top: 47px;
   float: left;
   margin-left: 10px;
 }
