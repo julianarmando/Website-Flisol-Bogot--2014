@@ -13,6 +13,15 @@ body{
   clear: both;
 }
 
+#footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#footer span.mail{
+  display: block;
+}
+
 .mapa{
     
     background: #fbfcfd;
