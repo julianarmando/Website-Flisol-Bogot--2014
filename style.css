@@ -4,9 +4,15 @@ body{
     margin: 0px auto;
 }
 
-#container{
+.container {
   width: 960px;
   margin: 0 auto;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 .clear {
@@ -22,11 +28,34 @@ body{
   display: block;
 }
 
-.mapa{
-    
-    background: #fbfcfd;
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin: 0px auto;
+#mapa{ 
+  background: #ffffff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 960px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 80px 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#mapa #gmaps {
+  width: 627px;
+  float: left;
+}
+
+#mapa #rss {
+  width: 314px;
+  float: right;
+}
+
+#mapa h3 {
+  font-size: 40pt;
+  font-weight: bold;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 #menu-principal{
