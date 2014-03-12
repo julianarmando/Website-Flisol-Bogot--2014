@@ -19,6 +19,49 @@ body{
   clear: both;
 }
 
+.grupo-tres-contenedor {
+  margin: 0 auto;
+  display: table;
+  bottom: 0;
+}
+
+.espaciador {
+  margin-top: 10px;
+}
+
+.grupo-tres-contenedor .grupo-tres {
+    height: 20px;
+    width: 760px;
+}
+
+.grupo-tres-contenedor .grupo-tres .trio {
+  height: 20px;
+  width: 243px;
+  background-color: green;
+  float: left;
+  margin: 0 5px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.grupo-tres-contenedor .grupo-tres .contenido {
+  background-color: #ffffff;
+  height: 200px;
+}
+
+.grupo-tres-contenedor .grupo-tres .contenido p {
+  margin: 15px !important;
+}
+
+.grupo-tres-contenedor .grupo-tres .trio p {
+  display: block;
+  -webkit-margin-before: inherit;
+  -webkit-margin-after: inherit;
+  -webkit-margin-start: inherit;
+  -webkit-margin-end: inherit;
+  text-align: center;
+ }
+
 #footer {
   margin-top: 50px;
   text-align: center;
@@ -143,9 +186,12 @@ body{
 }
 
 #que-es-flisol {
-  background-color: red;
+  background-color: black;
+  color: #ffffff;
+}
+
+#que-es-flisol-contenedor {
   margin-top: 20px;
-  height: 120px;
 }
 
 /* Calculate fluid ratio based on two dimensions (width/height) */
