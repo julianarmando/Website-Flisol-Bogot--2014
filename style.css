@@ -44,6 +44,12 @@ body{
   color: #ffffff;
 }
 
+#que-es-flisol {
+  background-color: red;
+  margin-top: 20px;
+  height: 120px;
+}
+
 /* Calculate fluid ratio based on two dimensions (width/height) */
 @mixin header($large-size, $small-size) {
   $width-large: nth($large-size, 1);
