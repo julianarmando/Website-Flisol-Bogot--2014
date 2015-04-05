@@ -1,0 +1,256 @@
+body{
+    background: #ecf1f9;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0px auto;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.contenedor-texto {
+  margin: 0 15px;
+  padding-top: 1px;
+  text-align: justify;
+}
+
+.clear {
+  clear: both;
+}
+
+.grupo-tres-contenedor {
+  margin: 0 auto;
+  display: table;
+  bottom: 0;
+}
+
+.espaciador {
+  margin-top: 10px;
+}
+
+.grupo-tres-contenedor .grupo-tres {
+    height: 20px;
+    width: 760px;
+}
+
+.grupo-tres-contenedor .grupo-tres .trio {
+  /*height: 20px;*/
+  width: 243px;
+  /*background-color: green;*/
+  background: rgba(0, 0, 0, 0.4);
+  float: left;
+  margin: 0 5px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.grupo-tres-contenedor .grupo-tres .contenido {
+  background-color: #ffffff;
+  height: 200px;
+}
+
+.grupo-tres-contenedor .grupo-tres .contenido p {
+  margin: 15px !important;
+}
+
+.grupo-tres-contenedor .grupo-tres .trio p {
+  display: block;
+  -webkit-margin-before: inherit;
+  -webkit-margin-after: inherit;
+  -webkit-margin-start: inherit;
+  -webkit-margin-end: inherit;
+  text-align: center;
+ }
+
+#footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#footer span.mail{
+  display: block;
+}
+
+#mapa{ 
+  background: #ffffff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 960px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 80px 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#mapa #gmaps {
+  width: 627px;
+  float: left;
+}
+
+#mapa #rss {
+  width: 314px;
+  float: right;
+}
+
+#mapa h3 {
+  font-size: 40pt;
+  font-weight: bold;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#menu-principal{
+  height: 117px;
+  background-color: #1e1c1f;
+}
+
+#menu-principal img{
+  float: left;
+  height: 88px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+
+#menu-principal ul{
+  padding: 0;
+  display: inline;
+  margin-top: 47px;
+  float: left;
+  margin-left: 10px;
+}
+
+#menu-principal ul li{
+  display: inline;
+  padding: 4px 15px;
+}
+
+#menu-principal ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#noticias {
+  margin-top: 10px;
+}
+
+#noticias h3 {
+  font-size: 40pt;
+  font-weight: bold;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#noticias .noticia {
+  background-color: green;
+  margin: 0 2.5px;
+  width: 315px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#noticias .noticia img{
+  position: absolute;
+}
+
+#noticias .noticia span{
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  margin-top: 170px;
+  height: 50px;
+  overflow: hidden;
+  line-height: 25px;
+}
+
+#patrocinio {
+  margin-top: 10px;
+}
+
+#patrocinio #apoya{
+  float: left;
+}
+
+#patrocinio #organiza{
+  float: right;
+}
+
+#patrocinio .bloque {
+  height: 300px;
+  width: 470;
+  background-color: #ffffff;
+}
+
+#que-es-flisol {
+  color: #ffffff;
+  background-image: url('img/fondo-queesflisol.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#que-es-flisol-contenedor {
+  margin-top: 20px;
+}
+
+/* Calculate fluid ratio based on two dimensions (width/height) */
+@mixin header($large-size, $small-size) {
+  $width-large: nth($large-size, 1);
+  $width-small: nth($small-size, 1);
+  $height-large: nth($large-size, 2);
+  $height-small: nth($small-size, 2);
+  $slope: ($height-large - $height-small) / ($width-large - $width-small);
+  $height: $height-small - $width-small * $slope;
+
+  padding-top: $slope * 100%;
+  height: $height;
+
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
+
+.header
+{
+    @include header(800px 200px, 300px 150px);
+    margin-top: 30px;
+    background-image: url(img/header.png);
+    height: 400px;  /* start height */
+    background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
+.tituloflisol{
+    text-align:center;
+    font-size: 400%;
+    vertical-align:100px;
+    padding-top: 80px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tituloflisol a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tituloflisol img {
+  height: 75px;
+}
+
+
