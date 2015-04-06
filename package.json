@@ -1,0 +1,39 @@
+{
+  "name": "Website-Flisol-Bogota-2014",
+  "version": "0.1.1",
+  "description": "Sitio web de Flisol en Bogotá.",
+  "main": "build/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-cssmin": "~0.12.2",
+    "grunt-contrib-imagemin": "~0.9.4",
+    "grunt-contrib-uglify": "~0.8.1",
+    "grunt-processhtml": "~0.3.7",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianarmando/Website-Flisol-Bogot--2014.git"
+  },
+  "keywords": [
+    "Flisol",
+    "Bogotá"
+  ],
+  "author": "Julian Bohorquez julianarmando@gmail.com",
+  "contributors": [
+    {
+      "name": "Camilo Ramírez",
+      "email": "camilolinchis@gmail.com",
+      "page": "camilortte.github.io"
+    }
+  ],
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/julianarmando/Website-Flisol-Bogot--2014/issues"
+  }
+}
