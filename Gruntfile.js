@@ -73,8 +73,15 @@ module.exports = function(grunt) {
           }
         ]
       }
-    }    
-
+    },
+    watch: {  
+      src: {
+        files: ['*.html'],
+        options: {
+          livereload: true
+        },
+      },
+    }
   });
 
   // Load the plugins
@@ -82,6 +89,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin'); 
   grunt.loadNpmTasks('grunt-processhtml');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
   grunt.registerTask('default', [
@@ -89,6 +97,7 @@ module.exports = function(grunt) {
     'concat:js',  // <-- concaternar js
     'cssmin:css', // <-- mimificar css
     'processhtml',// <-- html de produccion
-    'imagemin'    // <-- compresion de imagenes
+    'imagemin',    // <-- compresion de imagenes
+    'watch'
   ]);
 };
